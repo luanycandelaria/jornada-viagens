@@ -21,10 +21,21 @@
   --menu-text-weight: 500;
 }
 
-* {
-  padding: 0;
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+textarea,
+button {
   margin: 0;
-  vertical-align: baseline;
-  list-style: none;
-  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
 }
