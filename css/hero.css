@@ -5,7 +5,7 @@
   background-size: cover;
 }
 
-.hero h2 {
+.hero > h2 {
   padding: 88px 24px;
   margin: 0;
   font-weight: var(--text-weight);
